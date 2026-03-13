@@ -35,21 +35,21 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.32228915662650603,
+      "y": 0.15384615384615385,
       "uniqueID": "id-285",
       "name": "X"
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.42965708989805373,
+      "y": 0.24615384615384617,
       "uniqueID": "id-289",
       "name": "Y"
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.521964782205746,
+      "y": 0.3384615384615385,
       "uniqueID": "id-292",
       "name": "Z"
     },
@@ -74,6 +74,18 @@
       ],
       "codeVersion": 1,
       "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"X\", type: \"number\", defaultValue: 0 },\n  { inputName: \"Y\", type: \"number\", defaultValue: 0 },\n  { inputName: \"Z\", type: \"number\", defaultValue: 0 }\n];\n\nconsole.log([X,Y,Z])\nreturn [X,Y,Z];\n"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.7089947089947091,
+      "y": 0.7333333333333334,
+      "uniqueID": "id-309",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
